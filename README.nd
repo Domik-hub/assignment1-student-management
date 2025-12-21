@@ -1,0 +1,40 @@
+# Assignment 1 – Object-Oriented Student Management System
+
+## Project Overview
+This project demonstrates core Object-Oriented Programming concepts in Java,
+including encapsulation, constructors, methods, arrays of objects, and class
+composition. The system manages students and courses while performing
+calculations such as GPA averages and honors detection.
+
+## Classes Description
+
+### Student Class
+The Student class stores personal and academic information such as name, ID,
+major, GPA, and credits. It uses private fields with getters and setters to
+ensure data encapsulation.
+
+### Course Class
+The Course class represents a university course and contains an array of
+Student objects, demonstrating composition. It calculates average GPA and
+identifies the student with the highest credits.
+
+## How to Compile and Run
+```bash
+javac *.java
+java Main
+
+## Reflection
+
+In this project, I learned how to apply Object-Oriented Programming principles
+in Java, such as creating classes, using constructors, methods, and working
+with arrays of objects. I understood how encapsulation works by keeping fields
+private and accessing them through getters and setters. This helped me better
+organize the code and manage student data correctly. I also learned how to
+calculate values like average GPA and find specific students using loops and conditions.
+
+One of the main challenges was working with arrays of objects and making sure
+indexes were handled correctly to avoid errors. Another challenge was
+understanding how different classes interact with each other. However, this project
+showed me the benefits of encapsulation and OOP principles, such as better
+code readability, easier debugging, and improved maintainability.
+Overall, this assignment helped me gain confidence in designing structured and clean Java programs.
