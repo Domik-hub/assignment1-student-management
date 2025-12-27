@@ -14,7 +14,7 @@ public class Main {
         s4.updateGPA(2.9); s4.addCredits(60);
         s5.updateGPA(3.6); s5.addCredits(100);
 
-        Course course = new Course("OOP with Java", "Dr. Anderson", 5);
+        Course course = new Course("OOP", "Aidana Aidynkyz", 5);
         course.addStudent(s1, 0);
         course.addStudent(s2, 1);
         course.addStudent(s3, 2);
